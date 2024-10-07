@@ -116,7 +116,7 @@
       "name": "hybrid-search-bm25-neural",
       "operation-type": "search",
       "request-params": {
-        "search_pipeline": "nlp-normalization-search-pipeline"
+        "search_pipeline": "nlp-search-pipeline"
       },
       "variable-queries": {{variable_queries | default(0)}},
       "param-source": "hybrid-query-bm25-neural-search-source",
