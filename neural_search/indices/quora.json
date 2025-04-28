@@ -18,7 +18,8 @@
   "mappings": {
     "properties": {
       "id": {
-        "type": "text"
+        "type": "text",
+        "fielddata": true
       },
       "passage_embedding": {
         {%- if passage_embedding_type is defined and passage_embedding_type == 'rank_features' %}
